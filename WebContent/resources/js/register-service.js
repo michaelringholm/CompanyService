@@ -1,6 +1,5 @@
 $(function() {
-	console.log("jquery is enabled!");
-	var test = new Test();
+	$("#serviceName").tooltip();
 });
 
 function Test() {

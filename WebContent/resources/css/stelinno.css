@@ -1,0 +1,21 @@
+@font-face { font-family: sf-san-francisco; src: url('../fonts/sf-san-francisco-ui-display-regular.otf'); }
+
+* {
+	font-family: sf-san-francisco;	
+}
+
+body {
+	font-size: 11pt;
+}
+
+label {
+	font-size: 9pt;
+}
+
+input {
+	font-size: 14pt;
+	border: 0;
+	outline: 0;
+	background: transparent;
+	border-bottom: 1px solid black;
+}
