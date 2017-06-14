@@ -19,3 +19,11 @@ input {
 	background: transparent;
 	border-bottom: 1px solid black;
 }
+
+button {
+	width: 120px;
+}
+
+.toolTipInputField {
+	margin-top: 18px;	
+}

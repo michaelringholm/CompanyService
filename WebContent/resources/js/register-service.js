@@ -1,5 +1,17 @@
 $(function() {
 	$("#serviceName").tooltip();
+	$("#serviceEndpoint").tooltip();
+	$("#description").tooltip();
+	$("#domain").tooltip();
+	$("#subDomain").tooltip();
+	$("#supportEmail").tooltip();
+	$("#supportChat").tooltip();
+	
+	var protocols = ["HTTP", "HTTPS"];	
+    $( "#protocol" ).autocomplete({ source: protocols, minLength: 0 });
+    
+	var serviceTypes = ["Free", "Educational", "Enterprise"];	
+    $( "#serviceType" ).autocomplete({ source: serviceTypes, minLength: 0 });    
 });
 
 function Test() {

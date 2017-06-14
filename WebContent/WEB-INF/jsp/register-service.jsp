@@ -18,7 +18,66 @@
 </head>
 <body>
 	<h1>Register Service</h1>
-	<label for="serviceName" style="margin-left: 0px;">Service Name:</label><br>
-	<input id="serviceName" title="Please enter the logical name of your service" style="margin-left: 0px;">
+	
+	<div class="toolTipInputField">
+		<label for="serviceName">Service Name:</label><br>
+		<input id="serviceName" title="Please enter the logical name of your service">
+	</div>
+	
+	<div class="toolTipInputField">
+		<label for="serviceEndpoint">Service Endpoint:</label><br>
+		<input id="serviceEndpoint" title="Please enter the URL for the service endpoint">
+	</div>
+	
+	<div class="toolTipInputField">
+		<label for="protocol">Protocol: </label><br>
+  		<input id="protocol">
+  	</div>
+  
+	<div class="toolTipInputField">
+		<label for="serviceType">Service Type: </label><br>
+  		<input id="serviceType">
+  	</div>  
+		
+	<div class="toolTipInputField">
+		<label for="description">Description:</label><br>
+		<input id="description" title="Please describe your service">
+	</div>
+	
+	<div class="toolTipInputField">
+		<label for="domain">Domain:</label><br>
+		<input id="domain" title="Please enter the logical domain where your service belongs to">
+	</div>
+	
+	<div class="toolTipInputField">
+		<label for="subDomain">Sub Domain:</label><br>
+		<input id="subDomain" title="Please enter the logical sub domain where your service belongs to">
+	</div>
+	
+	<div class="toolTipInputField">
+		<label for="supportEmail">Support Email:</label><br>
+		<input id="supportEmail" title="Please enter support email address for your service">
+	</div>
+	
+	<div class="toolTipInputField">
+		<label for="supportChat">Support Chat:</label><br>
+		<input id="supportChat" title="Please enter the support chat tag for your service">
+	</div>
+	
+	<div style="margin-top: 20px;">
+		<button class="ui-button ui-widget ui-corner-all">
+	    	<span class="ui-icon ui-icon-check"></span> Confirm
+	  	</button>  	
+	  	<button class="ui-button ui-widget ui-corner-all">
+	    	<span class="ui-icon ui-icon-person"></span> Roles
+	  	</button>  	
+	  	<button class="ui-button ui-widget ui-corner-all">
+	    	<span class="ui-icon ui-icon-cancel"></span> Cancel
+	  	</button>  	
+	 	<button class="ui-button ui-widget ui-corner-all">
+	    	<span class="ui-icon ui-icon-play"></span> Test
+	  	</button>
+  	</div>
+	
 </body>
 </html>
