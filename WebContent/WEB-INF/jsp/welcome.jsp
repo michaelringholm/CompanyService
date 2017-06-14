@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<title>Sample Micro Services</title>
+	<title>Stelinno</title>
 	
 	<link href="<c:url value="/resources/css/jquery-ui.min.css" />" rel="stylesheet">
 	<link href="<c:url value="/resources/css/jquery-ui.theme.min.css" />" rel="stylesheet">
@@ -17,11 +17,10 @@
     <script src="<c:url value="/resources/js/register-service.js" />"></script>	
 </head>
 <body>
-	<h1>Sample Micro Services</h1>
-	<h2>OpenShift</h2>
-	<div><a href="trade/get?tradeId=1">Company Service</a></div>
-	
-	<h2>Google Cloud Platform</h2>
-	<div><a href="http://stelinno-170712.appspot.com/">Parcel Tracking Service</a></div>
+	<h1>Stelinno</h1>
+	<h2>Stellar Innovations</h2>
+	<div style="margin-top: 12px;">Stellar innovations is a company specializing in Cloud computing and Micro Services. Our vision is to make a transparent
+	and efficient service culture for individuals and companies. We hope that we can bring the world of information technology
+	to the next level, by facilitating a more efficient and stream lined Cloud Service Culture!</div>
 </body>
 </html>
