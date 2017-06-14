@@ -17,6 +17,7 @@
  			with view name welcome. This will be resolved to path /WEB-INF/jsp/welcome.jsp . -->
  			
 	<bean name="/help" class="com.stelinno.microservice.controller.HelpController" />
+	<bean name="/register" class="com.stelinno.microservice.controller.RegisterServiceController" />
 
 	<!-- <bean id="viewResolver"	class="org.springframework.web.servlet.view.UrlBasedViewResolver">  -->
 	<bean id="viewResolver"	class="org.springframework.web.servlet.view.InternalResourceViewResolver">

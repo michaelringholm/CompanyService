@@ -4,10 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Sample Micro Services</title>
 </head>
 <body>
-	Help
-	<div>http://localhost:8080/CompanyService/trade/get?tradeId=1</div>
+	Sample Micro Services
+	<a href="/CompanyService/trade/get?tradeId=1">Company Service</a>
+	<a href="/trade/get?tradeId=1">Company Service</a>
 </body>
 </html>
