@@ -23,3 +23,6 @@ hs_err_pid*
 
 #Eclipse settings directory
 .settings
+
+#Eclipse target directory
+target
