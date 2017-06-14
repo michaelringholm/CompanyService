@@ -63,6 +63,24 @@
     		<artifactId>servlet-api</artifactId>
     		<version>2.5</version>
     		<scope>provided</scope>
-		</dependency>		
+		</dependency>
 	</dependencies>
+	<!--<profiles>
+			<profile>
+					<id>openshift</id>
+					<build>
+							<finalName>{APP_NAME}</finalName>
+							<plugins>
+									<plugin>
+											<artifactId>maven-war-plugin</artifactId>
+											<version>2.4</version>
+											<configuration>
+													<outputDirectory>webapps</outputDirectory>
+													<warName>ROOT</warName>
+											</configuration>
+									</plugin>
+							</plugins>
+					</build>
+			</profile>
+		</profiles>	-->
 </project>
