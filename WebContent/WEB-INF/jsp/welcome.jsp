@@ -22,5 +22,7 @@
 	<div style="margin-top: 12px;">Stellar innovations is a company specializing in Cloud computing and Micro Services. Our vision is to make a transparent
 	and efficient service culture for individuals and companies. We hope that we can bring the world of information technology
 	to the next level, by facilitating a more efficient and stream lined Cloud Service Culture!</div>
+	<hr>
+	@Copyright Stelinno A/S 2017
 </body>
 </html>
