@@ -4,17 +4,16 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.stelinno.microservice.entity.Trade;
+import com.stelinno.microservice.entity.Bet;
 
 @Controller
 
-@RequestMapping("/trade")
-public class TradeController {
+@RequestMapping("/bet")
+public class BetController {
 	
 	@RequestMapping("/get")
-	public @ResponseBody Trade GetTrade(int tradeId) {
-		Trade trade = new Trade();
-		trade.TradeId = tradeId;
-		return trade;
+	public @ResponseBody Bet GetBet() {
+		Bet bet = new Bet();
+		return bet;
 	}
 }
